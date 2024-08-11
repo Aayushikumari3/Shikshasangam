@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.set('views',path.join(__dirname,'views'));
 const methodOverride = require("method-override");
 
-mongoose.connect("mongodb://127.0.0.1:27017/newCamping",{
+mongoose.connect("mongodb+srv://Aayushi:pqiSKmPyC3PDXZFE@cluster0.9vhot9h.mongodb.net/",{
     useNewUrlParser: true,
     useUnifiedTopology: true
     // useCreateIndex: true/
